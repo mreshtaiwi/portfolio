@@ -1,52 +1,51 @@
-html{
+html {
   scroll-behavior: smooth;
 }
-.sizer{
+.sizer {
   width: 350px;
   height: 250px;
 }
-#shihab{
-  background-color: #17A2B8!important;
+#shihab {
+  background-color: #17a2b8 !important;
 }
-.red{
-	background-color: red;
-
+.red {
+  background-color: red;
 }
-.blue{
-	background-color: blue;
+.blue {
+  background-color: blue;
 }
-.green{
-	background-color: green;
+.green {
+  background-color: green;
 }
-.colored{
-	background-color: transparent !important;
+.colored {
+  background-color: transparent !important;
 }
-.border-bottom{
-	border-bottom: 3px solid lightgray !important;
+.border-bottom {
+  border-bottom: 3px solid lightgray !important;
 }
-.blockquote{
-	border-left: 4px solid #795548 !important;
-	padding-left: 8px;
+.blockquote {
+  border-left: 4px solid #795548 !important;
+  padding-left: 8px;
 }
-.shihabcolor{
-	color: #795548 !important;
+.shihabcolor {
+  color: #795548 !important;
 }
-.nodecoration a{
-	color: #795548 !important;
-	text-decoration: none !important;
+.nodecoration a {
+  color: #795548 !important;
+  text-decoration: none !important;
 }
-.transparent{
-	background-color: transparent !important;
+.transparent {
+  background-color: transparent !important;
 }
-.jumbotron{
-	margin-bottom: 0rem!important;
+.jumbotron {
+  margin-bottom: 0rem !important;
 }
 @keyframes type {
   0% {
     width: 0;
   }
   99.9% {
-    border-right: .15em solid #795548;
+    border-right: 0.15em solid #795548;
   }
   100% {
     border: none;
@@ -61,7 +60,7 @@ html{
     opacity: 1;
   }
   99.9% {
-    border-right: .15em solid #795548;
+    border-right: 0.15em solid #795548;
   }
   100% {
     opacity: 1;
@@ -85,21 +84,21 @@ html{
     border-color: tranparent;
   }
 }
-.overflow{
- overflow: hidden;
+.overflow {
+  overflow: hidden;
 }
 
-.shadowing{
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+.shadowing {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .css-typing p {
-  border-right: .15em solid #795548;
-  color:#795548;
+  border-right: 0.15em solid #795548;
+  color: #795548;
   font-family: monospace;
   font-size: 22px;
   white-space: nowrap;
   overflow: hidden;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
 }
 .css-typing p:nth-of-type(1) {
   width: 375px;
@@ -157,7 +156,7 @@ html{
   animation-delay: 7s;
   animation-fill-mode: forwards;
 }
-.css-typing p:nth-of-type(10){
+.css-typing p:nth-of-type(10) {
   width: 360px;
   opacity: 0;
   animation: typefinal 1s steps(40, end);
@@ -165,60 +164,75 @@ html{
   animation-delay: 8s;
   animation-fill-mode: forwards;
 }
-.overflow{
+.overflow {
   /*overflow: auto;*/
 }
 
 .swing {
-    animation: swing ease-in-out 1.5s infinite alternate;
-    transform-origin: center -20px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  animation: swing ease-in-out 1.5s infinite alternate;
+  transform-origin: center -20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .swing img {
-    border: 5px solid #f8f8f8;
-    display: block;
+  border: 5px solid #f8f8f8;
+  display: block;
 }
-.swing:after{
-    content: '';
-    position: absolute;  
-    width: 20px; height: 20px;  
-    border: 1px solid #999;
-    top: -11px; left: 44%;
-    z-index: 0;
-    border-bottom: none;
-    border-right: none;
-    transform: rotate(45deg);
+.swing:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  top: -11px;
+  left: 44%;
+  z-index: 0;
+  border-bottom: none;
+  border-right: none;
+  transform: rotate(45deg);
 }
 /* nail */
-.swing:before{
-    content: '';
-    position: absolute;
-    width: 5px; height: 5px;
-    top: -17px;left: 46.5%;
-    z-index: 5;
-    border-radius: 50% 50%;
-    background: #000;
-}
- 
-@keyframes swing {
-    0% { transform: rotate(3deg); }
-    100% { transform: rotate(-3deg); }
+.swing:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: -17px;
+  left: 46.5%;
+  z-index: 5;
+  border-radius: 50% 50%;
+  background: #000;
 }
 
-@keyframes smallswing{
-    0% { transform: rotate(3deg); }
-    100% { transform: rotate(-3deg); }
+@keyframes swing {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
 }
-.ml-xs-mob{
-  margin-left: 2rem!important;
-  margin-right: 2rem!important;
+
+@keyframes smallswing {
+  0% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
+.ml-xs-mob {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
 }
 /* flip the pane when hovered */
-  .flip-container:hover .flipper, .flip-container.hover .flipper {
-    transform: rotateY(180deg);
-  }
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
 
-.flip-container, .front, .back {
+.flip-container,
+.front,
+.back {
   width: 320px;
   height: 480px;
 }
@@ -231,7 +245,8 @@ html{
 }
 
 /* hide back of pane during swap */
-.front, .back {
+.front,
+.back {
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -249,33 +264,32 @@ html{
   transform: rotateY(180deg);
 }
 
-.moving{
+.moving {
   animation: moving ease-in-out 1s infinite alternate;
 }
 
 @keyframes moving {
-    to { 
-      transform: translateX(-8px);
-
-     }
+  to {
+    transform: translateX(-8px);
+  }
 }
-.circle:hover{
+.circle:hover {
   border-radius: 50%;
 }
-.toright{
+.toright {
   float: right;
 }
-.toleft{
+.toleft {
   float: left;
 }
-.cleardiv{
+.cleardiv {
   clear: both;
 }
 
-.nav-link:hover{
-  background-color: #795548!important;
-  color: #F8F9FA!important;
-  border-radius: 20px;	
+.nav-link:hover {
+  background-color: #795548 !important;
+  color: #f8f9fa !important;
+  border-radius: 20px;
 }
 
 /*@media only screen and (max-width: 505px) {
@@ -296,43 +310,45 @@ html{
     margin-left: 10px!important;
   }
 }*/
-.pls-3{
+.pls-3 {
   float: left;
   padding-left: 10px;
 }
-#plsf-3{
+#plsf-3 {
   float: left;
   padding-left: 40px;
 }
 
 @keyframes blinker {
   from {
-    opacity: 1.0;
+    opacity: 1;
   }
   to {
-    
     opacity: 0.2;
-    color: #17A2B8;
-    }
+    color: #17a2b8;
+  }
 }
-#blink{
+#blink {
   /*text-decoration: blink;*/
   animation-name: blinker;
   animation-duration: 0.5s;
-  animation-iteration-count:infinite;
-  animation-timing-function:ease-in-out;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
   animation-direction: alternate;
 }
-footer{
-  
+footer {
   background-color: #138496;
   color: white;
   font-weight: bold;
-  margin:0 auto;
+  margin: 0 auto;
   line-height: 40px;
   width: 250px;
   height: 50px;
   text-align: center;
   border: 5px dashed white;
   border-radius: 10px;
+}
+
+.xyz {
+  height: 300p;
 }
