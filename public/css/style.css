@@ -176,6 +176,7 @@ html {
 .swing img {
   border: 5px solid #f8f8f8;
   display: block;
+  width: 100%;
 }
 .swing:after {
   content: "";
